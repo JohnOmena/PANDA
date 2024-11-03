@@ -1,0 +1,33 @@
+# Ignorar arquivos de configuração de IDEs
+.vscode/
+.idea/
+.spyderproject
+
+# Ignorar arquivos Python de cache
+__pycache__/
+*.pyc
+
+# Ignorar arquivos de ambiente virtual
+venv/
+env/
+
+# Ignorar arquivos de logs
+*.log
+
+# Ignorar arquivos de configuração e credenciais
+*.env
+config.yaml
+credentials.json
+
+# Ignorar arquivos grandes de dados
+data/
+*.csv
+*.zip
+
+# Ignorar checkpoints do Jupyter Notebook
+.ipynb_checkpoints/
+PANDA/.ipynb_checkpoints/
+
+# Ignorar configuração do Spyder
+.spyproject/
+PANDA/.spyproject/
