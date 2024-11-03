@@ -1,5 +1,6 @@
 import os
-from utils import print_slide_details
+from utils import print_slide_details, load_and_filter_train_data
+
 
 # There are two ways to load the data from the PANDA dataset:
 # Option 1: Load images using openslide
