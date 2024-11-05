@@ -1,5 +1,5 @@
 import os
-from utils import print_slide_details, load_and_filter_train_data
+from utils import *
 
 
 # There are two ways to load the data from the PANDA dataset:
@@ -65,3 +65,7 @@ height = 512
 
 region = biopsy.read_region((x,y), level, (width, height))
 display(region)
+
+mask = openslide.OpenSlide(os.path.join(mask_dir, '08ab45297bfe652cc0397f4b37719ba1_mask.tiff'))
+print_mask_details(mask, center='radboud')
+mask.close()
