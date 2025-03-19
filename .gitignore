@@ -21,7 +21,6 @@ credentials.json
 
 # Ignorar arquivos grandes de dados
 data/
-*.csv
 *.zip
 
 # Ignorar checkpoints do Jupyter Notebook
